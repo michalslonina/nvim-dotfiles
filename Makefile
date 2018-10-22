@@ -8,6 +8,6 @@
 
 all:
 	echo "Copying files..."
-	cp -f $(HOME)/.config/nvim/init.vim .
-	cp -rf $(HOME)/.config/nvim/config .
+	cp -f init.vim $(HOME)/.config/nvim/
+	cp -rf config $(HOME)/.config/nvim/
 	echo "Files have been copied successfully."
