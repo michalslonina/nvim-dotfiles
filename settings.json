@@ -1,0 +1,9 @@
+{
+    "initializationOptions": {
+        "cacheDirectory": "/tmp/cquery",
+        "index": {
+            "blacklist": "Build/.*"
+        }
+    }
+
+}
