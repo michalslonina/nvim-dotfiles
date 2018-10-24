@@ -57,7 +57,7 @@ let g:python3_host_prog = '/home/lergawy/.virtualenvs/nvim3/bin/python'
 " Solarized, dark, with true color support
 set termguicolors
 set background=dark
-colorscheme NeoSolarized
+colorscheme desert
 
 " close vim if only window left is nerdtree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
