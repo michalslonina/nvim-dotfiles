@@ -9,6 +9,5 @@
 all:
 	echo "Copying files..."
 	cp -f init.vim $(HOME)/.config/nvim/
-	cp -f settings.json $(HOME)/.config/nvim/
 	cp -rf config $(HOME)/.config/nvim/
 	echo "Files have been copied successfully."

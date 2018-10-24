@@ -3,8 +3,8 @@
 
 " language server commands
 let g:LanguageClient_serverCommands = {
-            \ 'cpp': ['cquery'],
-            \ 'c': ['cquery'],
+            \ 'cpp': ['/ssd/llvm-clang/build/bin/clangd'],
+            \ 'c': ['/ssd/llvm-clang/build/bin/clangd'],
             \ 'python': ['~/pyenv/nvim3/bin/pyls'],
             \ 'rust': ['rustup', 'run', 'stable', 'rls'],
             \ 'haskell': ['hie-wrapper']
