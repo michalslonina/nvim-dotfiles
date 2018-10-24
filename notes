@@ -1,3 +1,5 @@
+Extra steps needed for installation:
+
 1 - Install 2 virtualenv's for python2 and python3:
   virtualenv -p /usr/bin/python ~/.virtualenvs/nvim2
   virtualenv -p /usr/bin/python3 ~/.virtualenvs/nvim3
@@ -5,3 +7,11 @@
 2 - Activate each virtualenv and then install neovim:
   source ~/.virtualenvs/nvim#/bin/activate
   pip# install neovim
+
+
+------------------------------------------------------
+
+Some random help tips:
+
+1 - <ctrl-n> provides a simplistic file-based auto completion.
+2 - <ctrl-x> <ctrl-f> provides completion for files and paths.

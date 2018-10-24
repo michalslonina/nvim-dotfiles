@@ -28,7 +28,6 @@ call deoplete#custom#option('sources', {
             \ 'python3': ['LanguageClient'],
             \ 'cpp': ['LanguageClient'],
             \ 'c': ['LanguageClient'],
-            \ 'rust': ['LanguageClient'],
             \ 'vim': ['vim'],
             \})
 
