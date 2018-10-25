@@ -28,9 +28,8 @@ nnoremap <silent> gf :call LanguageClient_textDocument_codeAction()<CR>
 " ALE
 nmap <F8> <Plug>(ale_fix)
 
-" fzy
-nnoremap <C-p> :FuzzyOpen<CR>
-nnoremap <C-s> :FuzzyGrep<CR>
+" fzf
+nnoremap <C-p> :FZF<CR>
 "
 " Plugin key-mappings.
 " Note: It must be "imap" and "smap".  It uses <Plug> mappings.
