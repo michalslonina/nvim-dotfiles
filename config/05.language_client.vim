@@ -22,7 +22,6 @@ set formatexpr=LanguageClient_textDocument_rangeFormatting()
 let g:LanguageClient_loadSettings = 1
 let g:LanguageClient_settingsPath = '~/.config/nvim/settings.json'
 
-" TODO decrease logging level when you the language server to work.
-let g:LanguageClient_loggingLevel = 'INFO'
+" let g:LanguageClient_loggingLevel = 'INFO'
 let g:LanguageClient_loggingFile = '/tmp/LanguageClient.log'
 let g:LanguageClient_serverStderr = '/tmp/LanguageServer.log'

@@ -67,4 +67,4 @@ nnoremap ,cd :cd %:p:h<CR>:pwd<CR>
 tnoremap <ESC> <C-\><C-n><C-w><C-p>
 
 " Easy most-recent-buffer switching
-nnoremap <Tab> :buffers<CR>:buffer<Space>
+nnoremap <Tab> :Buffers<CR>
