@@ -61,6 +61,7 @@ colorscheme desert
 
 " close vim if only window left is nerdtree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+let NERDTreeShowHidden=1
 
 " crontab filetype tweak (the way vim normally saves files confuses crontab
 " so this workaround allows for editing

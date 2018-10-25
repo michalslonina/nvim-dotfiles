@@ -10,4 +10,5 @@ all:
 	echo "Copying files..."
 	cp -f init.vim $(HOME)/.config/nvim/
 	cp -rf config $(HOME)/.config/nvim/
+	cp -f .ripgreprc $(HOME)/.ripgreprc
 	echo "Files have been copied successfully."
