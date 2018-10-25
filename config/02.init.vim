@@ -78,3 +78,6 @@ let g:ale_linters_explicit = 1
 " terminal settings
 autocmd BufWinEnter,WinEnter term://* startinsert
 autocmd BufLeave term://* stopinsert
+
+" ignore case in search by default
+set ignorecase
