@@ -27,6 +27,7 @@ if dein#load_state('~/.cache/dein')
 	call dein#add('Shougo/neoinclude.vim')
 	call dein#add('neomutt/neomutt.vim')
 	call dein#add('junegunn/fzf')
+    call dein#add('KareemErgawy/fzf.vim')
 	call dein#add('alaric/neovim-visor')
 	call dein#add('christoomey/vim-tmux-navigator')
 	call dein#add('autozimu/LanguageClient-neovim', {
