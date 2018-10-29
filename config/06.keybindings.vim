@@ -68,3 +68,5 @@ tnoremap <ESC> <C-\><C-n><C-w><C-p>
 
 " Easy most-recent-buffer switching
 nnoremap <Tab> :Buffers<CR>
+
+let mapleader="\<SPACE>"
