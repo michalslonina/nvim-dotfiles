@@ -35,6 +35,8 @@ if dein#load_state('~/.cache/dein')
 				\ 'build': 'bash install.sh',
 				\ })
     call dein#add('scrooloose/nerdcommenter')
+    call dein#add('tpope/vim-fugitive')
+    call dein#add('jiangmiao/auto-pairs')
 
 	" Required:
 	call dein#end()
