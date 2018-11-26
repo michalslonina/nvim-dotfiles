@@ -37,6 +37,7 @@ if dein#load_state('~/.cache/dein')
     call dein#add('scrooloose/nerdcommenter')
     call dein#add('tpope/vim-fugitive')
     call dein#add('jiangmiao/auto-pairs')
+    call dein#add('rhysd/vim-clang-format')
 
 	" Required:
 	call dein#end()

@@ -50,8 +50,8 @@ set relativenumber
 set grepprg=rg\ --vimgrep
 
 " python packages in venv
-let g:python_host_prog = '/home/lergawy/.virtualenvs/nvim2/bin/python'
-let g:python3_host_prog = '/home/lergawy/.virtualenvs/nvim3/bin/python'
+let g:python_host_prog = '/home/ergawy/.virtualenvs/nvim2/bin/python'
+let g:python3_host_prog = '/home/ergawy/.virtualenvs/nvim3/bin/python'
 
 " Set colors in terminal
 " Solarized, dark, with true color support
@@ -82,3 +82,5 @@ autocmd BufLeave term://* stopinsert
 
 " ignore case in search by default
 set ignorecase
+
+let g:clang_format#auto_format_on_insert_leave = 1
