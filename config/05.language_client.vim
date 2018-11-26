@@ -3,7 +3,7 @@
 
 " language server commands
 let g:LanguageClient_serverCommands = {
-            \ 'cpp': ['/home/ergawy/llvm-upstream/release/bin/clangd'],
+            \ 'cpp': ['/home/lergawy/llvm-upstream/release/bin/clangd'],
             \ 'c': ['/ssd/llvm-clang/build/bin/clangd'],
             \ 'python': ['~/pyenv/nvim3/bin/pyls'],
             \ 'rust': ['rustup', 'run', 'stable', 'rls'],
