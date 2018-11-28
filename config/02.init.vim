@@ -83,4 +83,4 @@ autocmd BufLeave term://* stopinsert
 " ignore case in search by default
 set ignorecase
 
-let g:clang_format#auto_format_on_insert_leave = 1
+let g:clang_format#auto_format = 1
