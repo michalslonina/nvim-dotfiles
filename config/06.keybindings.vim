@@ -13,6 +13,7 @@ nnoremap <C-H> <C-W><C-H>
 " nerdtree
 " autocmd vimenter * NERDTree " start nerdtree automatically when vim starts up
 map <C-n> :NERDTreeToggle<CR>
+let g:NERDTreeMapQuit='\q'
 
 " deoplete tab-complete
 inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
