@@ -84,3 +84,6 @@ autocmd BufLeave term://* stopinsert
 set ignorecase
 
 let g:clang_format#auto_format = 1
+
+set autoread
+au FocusGained * :checktime
