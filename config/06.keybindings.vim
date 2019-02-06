@@ -30,7 +30,7 @@ nnoremap <silent> gf :call LanguageClient_textDocument_codeAction()<CR>
 nmap <F8> <Plug>(ale_fix)
 
 " fzf
-nnoremap <C-p> :FZF<CR>
+nnoremap <C-p> :GFiles<CR>
 "
 " Plugin key-mappings.
 " Note: It must be "imap" and "smap".  It uses <Plug> mappings.
