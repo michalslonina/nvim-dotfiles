@@ -14,9 +14,11 @@ set backspace=indent,eol,start
 " Enable line numbers
 set nu
 
+" Highlight search
+set hl
+
 " Enable line/column info at bottom
 set ruler
-set cursorline " highlights current line
 
 set scrolloff=10
 
@@ -40,18 +42,11 @@ set mouse=a mousemodel=popup
 " markdown file recognition
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 
-" relative line numbers
-" Sets relative line numbers in normal mode, absolute line numbers in insert
-" mode
-set number
-set relativenumber
-
 " use ripgreg instead of grep
-set grepprg=rg\ --vimgrep
+set grepprg=ag\ --vimgrep
 
-" python packages in venv
-let g:python_host_prog = '/home/lergawy/.virtualenvs/nvim2/bin/python'
-let g:python3_host_prog = '/home/lergawy/.virtualenvs/nvim3/bin/python'
+let g:python_host_prog = '/usr/bin/python'
+let g:python3_host_prog = '/usr/bin/python3'
 
 " Set colors in terminal
 " Solarized, dark, with true color support
@@ -69,21 +64,12 @@ au FileType crontab setlocal bkc=yes
 
 set hidden
 
-" Disable completion where available from ALE
-" (not worth creating a separate file just for a one-liner)
-let g:ale_completion_enabled = 0
-
-" Only run linters named in ale_linters settings.
-let g:ale_linters_explicit = 1
-
 " terminal settings
 autocmd BufWinEnter,WinEnter term://* startinsert
 autocmd BufLeave term://* stopinsert
 
 " ignore case in search by default
 set ignorecase
-
-let g:clang_format#auto_format = 1
 
 set autoread
 au FocusGained * :checktime
