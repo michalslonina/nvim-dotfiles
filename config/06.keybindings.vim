@@ -37,11 +37,11 @@ let g:neovim_visor_key = '<C-a>'
 " if user types `,cd`
 nnoremap ,cd :cd %:p:h<CR>:pwd<CR>
 
-" <ESC> exits in terminal mode
-tnoremap <ESC> <C-\><C-n><C-w><C-p>
+au TermOpen * tnoremap <Esc> <C-\><C-n><C-w><C-p>
+au FileType fzf tunmap <Esc>
 
 " Easy most-recent-buffer switching
-nnoremap <Tab> :Buffers<CR>
+" nnoremap <Tab> :Buffers<CR>
 
 let mapleader=","
 
