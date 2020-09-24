@@ -76,3 +76,5 @@ let g:deoplete#enable_at_startup = 1
 " GuiCursor breaks KDE Konsole emulator
 " see: https://github.com/neovim/neovim/issues/6798
 set guicursor=
+
+let g:rainbow_active = 1
