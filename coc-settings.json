@@ -1,0 +1,4 @@
+{
+    "clangd.semanticHighlighting": true,
+    "clangd.arguments": ["--background-index", "--all-scopes-completion"]
+}
