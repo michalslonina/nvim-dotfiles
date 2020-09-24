@@ -27,11 +27,11 @@ filetype indent plugin on
 set clipboard+=unnamedplus
 
 " Tab = 4 spaces
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set sta
 set et
-set sts=4
+set sts=2
 
 " enable mouse support
 set mouse=a mousemodel=popup
@@ -70,3 +70,5 @@ set ignorecase
 
 set autoread
 au FocusGained * :checktime
+
+let g:deoplete#enable_at_startup = 1
