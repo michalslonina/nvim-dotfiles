@@ -7,8 +7,6 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
-" fzf
-nnoremap <C-p> :GFiles<CR>
 "
 " Plugin key-mappings.
 " Note: It must be "imap" and "smap".  It uses <Plug> mappings.
@@ -38,7 +36,6 @@ let g:neovim_visor_key = '<C-a>'
 nnoremap ,cd :cd %:p:h<CR>:pwd<CR>
 
 au TermOpen * tnoremap <Esc> <C-\><C-n><C-w><C-p>
-au FileType fzf tunmap <Esc>
 
 " Easy most-recent-buffer switching
 " nnoremap <Tab> :Buffers<CR>

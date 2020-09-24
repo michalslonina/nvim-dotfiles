@@ -1,3 +1,7 @@
+" fzf
+nnoremap <C-g> :FZFMru<CR>
+au FileType fzf tunmap <Esc>
+
 map gg :GG <C-R><C-W><CR>
 
 function! RipgrepFzf(query, fullscreen)

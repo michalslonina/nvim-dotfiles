@@ -28,6 +28,7 @@ if dein#load_state('~/.cache/dein')
   call dein#add('~/.fzf')
 " Newer version of fzf.vim break fzf 
   call dein#add('junegunn/fzf.vim', {'rev':'23dda8602f138a9d75dd03803a79733ee783e356'})
+  call dein#add('pbogut/fzf-mru.vim')
   call dein#add('mhinz/vim-signify')
   call dein#add('vim-airline/vim-airline')
   call dein#add('vim-airline/vim-airline-themes')
