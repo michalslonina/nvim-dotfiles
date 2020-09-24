@@ -24,6 +24,7 @@ if dein#load_state('~/.cache/dein')
   call dein#add('jackguo380/vim-lsp-cxx-highlight')
   call dein#add('neoclide/coc.nvim', {'merged':0, 'rev': 'release'})
   call dein#add('~/.fzf')
+" Newer version of fzf.vim break fzf 
   call dein#add('junegunn/fzf.vim', {'rev':'23dda8602f138a9d75dd03803a79733ee783e356'})
   call dein#add('mhinz/vim-signify')
   call dein#add('vim-airline/vim-airline')
