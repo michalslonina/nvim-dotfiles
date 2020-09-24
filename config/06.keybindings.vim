@@ -51,4 +51,5 @@ nnoremap <M-Left>  <C-W><Left>
 nnoremap <M-Right> <C-W><Right>
 
 map <C-f> :GFiles<CR>  
-map <F1> :RangerSplit<CR>
+map <F1> :Dirvish<CR>
+map <F12> :tabnew<CR>:Startify<CR>
