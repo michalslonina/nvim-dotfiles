@@ -14,9 +14,6 @@ set backspace=indent,eol,start
 " Enable line numbers
 set nu
 
-" Highlight search
-set hl
-
 " Enable line/column info at bottom
 set ruler
 

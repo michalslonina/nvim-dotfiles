@@ -48,14 +48,9 @@ smap <expr><TAB> neosnippet#expandable_or_jumpable() ?
 \ "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
 
 " Expands or completes the selected snippet/item in the popup menu
-imap <expr><silent><CR> pumvisible() ? deoplete#mappings#close_popup() .
-      \ "\<Plug>(neosnippet_jump_or_expand)" : "\<CR>"
+"imap <expr><silent><CR> pumvisible() ? deoplete#mappings#close_popup() .
+"      \ "\<Plug>(neosnippet_jump_or_expand)" : "\<CR>"
 smap <silent><CR> <Plug>(neosnippet_jump_or_expand)
-
-" For conceal markers.
-if has('conceal')
-  set conceallevel=2 concealcursor=niv
-endif
 
 " neovim visor
 let g:neovim_visor_key = '<C-a>'
@@ -71,3 +66,5 @@ tnoremap <ESC> <C-\><C-n><C-w><C-p>
 nnoremap <Tab> :Buffers<CR>
 
 let mapleader=","
+
+map <C-f> :GFiles<CR>  
