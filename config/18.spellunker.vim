@@ -54,10 +54,10 @@ let g:spelunker_disable_auto_group = 1
 augroup spelunker
   autocmd!
   " Setting for g:spelunker_check_type = 1:
-  autocmd BufWinEnter,BufWritePost *.vim,*.js,*.jsx,*.json,*.md,*.txt,*.adoc,*.hpp call spelunker#check()
+  autocmd BufWinEnter,BufWritePost *.vim,*.js,*.jsx,*.json,*.md,*.txt,*.adoc,*.hpp,*.latex call spelunker#check()
 
   " Setting for g:spelunker_check_type = 2:
-  autocmd CursorHold *.md,*.txt,*.adoc,*.vim,*.js,*.jsx,*.json,*.md,*.cpp,*.c,*.hpp,*.h call spelunker#check_displayed_words()
+  autocmd CursorHold *.md,*.txt,*.adoc,*.vim,*.js,*.jsx,*.json,*.md,*.cpp,*.c,*.hpp,*.h,*.latex call spelunker#check_displayed_words()
 augroup END
 
 " Override highlight group name of incorrectly spelled words. (default:
