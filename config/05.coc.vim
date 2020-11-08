@@ -64,6 +64,9 @@ nmap <silent> <RightMouse> <C-O>
 nmap <silent> <2-LeftMouse> <Plug>(coc-definition)
 nmap <silent> <MiddleMouse> :CocCommand clangd.switchSourceHeader<CR>
 nmap <silent> <2-MiddleMouse> :CocCommand clangd.switchSourceHeader<CR>
+nmap <silent> <2-MiddleMouse> :CocCommand clangd.switchSourceHeader<CR>
+map <ScrollWheelUp> <C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y>
+map <ScrollWheelDown> <C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E>
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
