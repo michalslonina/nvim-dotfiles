@@ -11,6 +11,8 @@ if dein#load_state('~/.cache/dein')
 
 	" Add or remove your plugins here:
 
+	call dein#add('vim-scripts/Rename2')
+	call dein#add('tpope/vim-eunuch')
 	call dein#add('scrooloose/nerdtree')
   call dein#add('907th/vim-auto-save')
   call dein#add('AndrewRadev/bufferize.vim')
