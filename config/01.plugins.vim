@@ -10,7 +10,7 @@ if dein#load_state('~/.cache/dein')
 	call dein#add('~/.cache/dein/repos/github.com/Shougo/dein.vim')
 
 	" Add or remove your plugins here:
-
+	call dein#add('airblade/vim-rooter')
 	call dein#add('vim-scripts/Rename2')
 	call dein#add('tpope/vim-eunuch')
 	call dein#add('scrooloose/nerdtree')
@@ -46,6 +46,8 @@ if dein#load_state('~/.cache/dein')
   call dein#add('zhaocai/GoldenView.Vim')
   call dein#add('airblade/vim-gitgutter')
   call dein#add('chrisbra/vim-xml-runtime')
+	call dein#add('skywind3000/asyncrun.vim')
+	call dein#add('skywind3000/asynctasks.vim')
 
 	" Required:
 	call dein#end()
