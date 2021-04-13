@@ -16,3 +16,4 @@ function! s:denite_my_settings() abort
 endfunction
 nmap <C-b> :Denite buffer<CR>
 nmap gb :Denite buffer<CR>
+nmap gr :Denite file_mru<CR>
