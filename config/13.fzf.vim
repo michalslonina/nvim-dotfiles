@@ -1,5 +1,6 @@
 " fzf
 nnoremap <C-g> :FZFMru<CR>
+map gr :FZFMru <CR>
 au FileType fzf tunmap <Esc>
 
 map gg :GG <C-R><C-W><CR>
