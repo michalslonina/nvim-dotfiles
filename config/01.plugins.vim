@@ -10,6 +10,9 @@ if dein#load_state('~/.cache/dein')
 	call dein#add('~/.cache/dein/repos/github.com/Shougo/dein.vim')
 
 	" Add or remove your plugins here:
+  call dein#add('tyru/open-browser.vim')
+  call dein#add('aklt/plantuml-syntax')
+  call dein#add('weirongxu/plantuml-previewer.vim')
   call dein#add('Shougo/neomru.vim')
 	call dein#add('Shougo/denite.nvim')
 	call dein#add('airblade/vim-rooter')
