@@ -44,7 +44,7 @@ if dein#load_state('~/.cache/dein')
   call dein#add('vim-airline/vim-airline')
   call dein#add('vim-airline/vim-airline-themes')
   call dein#add('zhaocai/GoldenView.Vim')
-
+  call dein#add('airblade/vim-gitgutter')
 
 "  call dein#add('mhinz/vim-signify')
 "  call dein#add('rafaqz/ranger.vim')
