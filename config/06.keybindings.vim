@@ -40,13 +40,17 @@ au TermOpen * tnoremap <Esc> <C-\><C-n><C-w><C-p>
 " Easy most-recent-buffer switching
 " nnoremap <Tab> :Buffers<CR>
 
-let mapleader=","
+let mapleader="'"
 
 nnoremap <M-Up>    <C-W><Up>
 nnoremap <M-Down>  <C-W><Down>
 nnoremap <M-Left>  <C-W><Left>
 nnoremap <M-Right> <C-W><Right>
-
+nmap <leader>
 map <C-f> :GFiles<CR>  
 map <F1> :Dirvish<CR>
 map <F12> :tabnew<CR>:Startify<CR>
+map 'v :vsplit<CR>
+map 's :split<CR>
+map 'c :w!<CR>:close<CR>
+map <leader>; <C-W><C-W> 
