@@ -67,11 +67,12 @@ nmap <silent> <2-MiddleMouse> :CocCommand clangd.switchSourceHeader<CR>
 nmap <silent> <2-MiddleMouse> :CocCommand clangd.switchSourceHeader<CR>
 map <ScrollWheelUp> <C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y>
 map <ScrollWheelDown> <C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E>
-nmap <silent> gd <Plug>(coc-definition)
-nmap <silent> gy <Plug>(coc-type-definition)
-nmap <silent> gi <Plug>(coc-implementation)
-nmap <silent> gr <Plug>(coc-references)
-nmap <silent> <C-a> :CocCommand clangd.switchSourceHeader<CR>
+nnoremap <leader>d <Plug>(coc-definition)
+nnoremap <leader>t <Plug>(coc-type-definition)
+nnoremap <leader>i <Plug>(coc-implementation)
+nnoremap <leader>r <Plug>(coc-references)
+nnoremap <silent> <C-a> :CocCommand clangd.switchSourceHeader<CR>
+nnoremap <silent> <leader>a :CocCommand clangd.switchSourceHeader<CR>
 
 " Use K to show documentation in preview window.
 nnoremap <silent> K :call <SID>show_documentation()<CR>
