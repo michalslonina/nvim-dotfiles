@@ -1,6 +1,3 @@
-" Use ; for commands
-nnoremap ; :
-
 " split pane navigation
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
@@ -56,3 +53,9 @@ map 's :split<CR>
 map 'c :silent w!<CR><CR>:silent! close<CR>
 map <leader>; <C-W><C-W> 
 map <leader><leader> <C-W><C-W> 
+
+" Scroll up and down
+map <C-J> 1000<C-D>
+map <C-K> 1000<C-U>
+inoremap <C-J> <C-O>1000<C-D>
+inoremap <C-K> <C-O>1000<C-U>
